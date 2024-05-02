@@ -1,0 +1,47 @@
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    background-color: khaki;
+    display: grid;
+    place-items: center;
+}
+img {
+    height: 150px;
+    width: 150px;
+    z-index: 1;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+#ketupat {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+img:nth-child(1) {
+    grid-row: 1;
+}
+
+img:nth-child(2),
+img:nth-child(3) {
+    grid-row: 2;
+}
+
+img:nth-child(4),
+img:nth-child(5),
+img:nth-child(6) {
+    grid-row: 3;
+}
+
+img:nth-child(7),
+img:nth-child(8) {
+    grid-row: 4;
+}
+
+img:nth-child(9) {
+    grid-row: 5;
+}
